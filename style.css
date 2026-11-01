@@ -465,3 +465,9 @@ main { overflow-x: clip; }
 .phone-pair .iphone { flex: 0 0 auto; }
 .phone-pair .iphone:first-child { margin-top: -18px; }
 .phone-pair .iphone:last-child { margin-top: 18px; }
+/* strip of framed phones: tilt the whole phone, never the screen inside it */
+.flow-strip .iphone img, .flow-strip li:hover .iphone img { transform: none !important; filter: none; }
+.mx-strip li:nth-child(odd) .iphone { --r: -1.5deg; }
+.mx-strip li:nth-child(even) .iphone { --r: 1.5deg; }
+.mx-strip .iphone { transition: transform .3s; }
+.mx-strip li:hover .iphone { transform: rotate(0deg) translateY(-6px); }
