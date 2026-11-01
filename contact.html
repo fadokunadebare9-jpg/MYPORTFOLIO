@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — build a brief with Fadokun Adebare</title>
+  <meta name="description" content="Tell Fadokun Adebare what you need: brand identity, UI, launch films, apparel design or frontend.">
+  <meta property="og:title" content="Contact — build a brief with Fadokun Adebare">
+  <meta property="og:description" content="Tell Fadokun Adebare what you need: brand identity, UI, launch films, apparel design or frontend.">
+  <meta name="theme-color" content="#F5F4EF">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23FF4F8B' stroke='%23161616' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <div class="nav-left">
+        <a href="index.html" class="logo-dot" aria-label="Fadokun Adebare — home"></a>
+        <ul class="nav-links">
+        <li><a href="index.html">★ Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="apparel.html">Apparel</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="dot-link" href="#" aria-label="Instagram" style="background: var(--yellow)"></a>
+        <a class="dot-link" href="#" aria-label="Behance" style="background: var(--pink)"></a>
+        <a class="dot-link" href="#" aria-label="LinkedIn" style="background: var(--green)"></a>
+        <a class="nav-contact" href="contact.html" aria-current="page"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1"></rect><path d="M3 7l9 6 9-6"></path></svg> Contact</a>
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 8h16M4 16h16"></path></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="wrap section first center" style="display: flex; flex-direction: column; align-items: center; padding-bottom: 32px">
+      <svg role="img" aria-label="Smiley face" width="110" height="110" viewBox="0 0 120 120"><circle cx="60" cy="60" r="56" fill="#FFC93C" stroke="#161616" stroke-width="3"></circle><ellipse cx="44" cy="48" rx="5" ry="10" fill="#161616"></ellipse><ellipse cx="76" cy="48" rx="5" ry="10" fill="#161616"></ellipse><circle cx="30" cy="70" r="8" fill="#FF8FB1"></circle><circle cx="90" cy="70" r="8" fill="#FF8FB1"></circle><path d="M38 74 Q60 98 82 74" fill="none" stroke="#161616" stroke-width="4" stroke-linecap="round"></path></svg>
+      <h1 class="pixel" style="margin: 24px 0 8px; font-size: clamp(80px, 11vw, 160px)">Let's talk</h1>
+      <p class="hand" style="margin: 0; font-size: 24px; max-width: 560px">Tap what you need and your brief writes itself on the sticky note. I read every message.</p>
+    </section>
+
+    <section class="wrap" style="padding-top: 40px; padding-bottom: 100px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start; justify-content: center">
+      <form id="brief" class="brief" style="flex: 1 1 520px; max-width: 640px">
+        <fieldset>
+          <legend>01 — What do you need?</legend>
+          <div class="picks">
+            <button type="button" class="pick" data-need="Brand identity" aria-pressed="false" style="--pc: var(--yellow)">Brand identity</button>
+            <button type="button" class="pick" data-need="Website / app UI" aria-pressed="false" style="--pc: var(--green)">Website / app UI</button>
+            <button type="button" class="pick" data-need="Launch film" aria-pressed="true" style="--pc: #FF8FB1">Launch film</button>
+            <button type="button" class="pick" data-need="Motion graphics" aria-pressed="false" style="--pc: var(--blue-soft)">Motion graphics</button>
+            <button type="button" class="pick" data-need="Clothing brand design" aria-pressed="false" style="--pc: var(--orange)">Clothing brand design</button>
+            <button type="button" class="pick" data-need="AI apparel visualization" aria-pressed="false" style="--pc: var(--lilac)">AI apparel visualization</button>
+            <button type="button" class="pick" data-need="Frontend build" aria-pressed="false" style="--pc: #9FE3F5">Frontend build</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>02 — When's the launch?</legend>
+          <div class="picks">
+            <button type="button" class="pick" data-when="ASAP" aria-pressed="false" style="--pc: var(--mint)">ASAP</button>
+            <button type="button" class="pick" data-when="This month" aria-pressed="false" style="--pc: var(--mint)">This month</button>
+            <button type="button" class="pick" data-when="Next month" aria-pressed="true" style="--pc: var(--mint)">Next month</button>
+            <button type="button" class="pick" data-when="Just exploring" aria-pressed="false" style="--pc: var(--mint)">Just exploring</button>
+          </div>
+        </fieldset>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px">
+          <div><label for="name">03 — Your name</label><input id="name" type="text" placeholder="Ada" autocomplete="name"></div>
+          <div><label for="email">Your email</label><input id="email" type="email" placeholder="you@brand.com" autocomplete="email"></div>
+        </div>
+        <div><label for="msg">Anything else? Links, references, vibes…</label><textarea id="msg" rows="4"></textarea></div>
+        <button type="submit" class="btn btn-dark" style="align-self: flex-start">Send brief →</button>
+        <p class="mono muted" style="margin: -14px 0 0; font-size: 11px">Opens your email app with the brief filled in.</p>
+      </form>
+
+      <aside class="sticky-brief" aria-live="polite" style="flex: 0 1 360px; margin-top: 24px">
+        <span class="tape" style="width: 110px; margin-left: -55px; top: -12px; background: rgba(169,196,255,.85); transform: rotate(-4deg)"></span>
+        <div class="body">
+          <span class="mono" style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em">your brief ✎</span>
+          <span>Hi Fadokun!</span>
+          <span>I need help with <mark data-out="need">launch film</mark>.</span>
+          <span>We're launching <mark data-out="when">next month</mark>.</span>
+          <span>— <span data-out="from">a future collaborator</span></span>
+          <div data-sent hidden style="display: flex; flex-direction: column; gap: 10px; margin-top: 6px">
+            <span class="sent">✎ Opening your email app…</span>
+            <span class="mono" style="font-size: 12px; line-height: 1.5">Didn't open? Copy the brief and send it to fadokunadebare9@gmail.com</span>
+            <button type="button" class="btn btn-light" data-copy style="align-self: flex-start; padding: 10px 16px">Copy brief</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="wrap section center" style="padding-top: 48px; padding-bottom: 64px; display: flex; flex-direction: column; align-items: center; gap: 16px">
+      <p class="eyebrow">↳ or skip the form</p>
+      <a class="mono" href="mailto:fadokunadebare9@gmail.com" style="font-size: 16px; color: var(--blue); text-decoration: underline; min-height: 44px; display: inline-flex; align-items: center">fadokunadebare9@gmail.com</a>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+        <a class="contact-line" href="tel:+2348020875613">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+          0802 087 5613
+        </a>
+        <a class="contact-line" href="https://wa.me/2348020875613" target="_blank" rel="noopener" style="background: var(--green)">
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-13.5 7.8L3 21l1.2-4.4A9 9 0 1 1 21 12z"></path></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+      <nav class="socials" aria-label="Social">
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">LinkedIn</a>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="wrap">
+    <div class="site-footer">
+      <span>© <span data-year>2026</span> Fadokun Adebare · made in Ilorin</span>
+      <a href="contact.html">Let's talk →</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
